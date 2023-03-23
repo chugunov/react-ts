@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+*.log
+
+# built files
+dist/
+build/
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ignore cache files for hot reload
+src/**/*.js
+src/**/*.map
+
+# ignore package-lock.json and yarn.lock
+package-lock.json
+yarn.lock
